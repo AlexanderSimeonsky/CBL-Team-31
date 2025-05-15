@@ -5,6 +5,11 @@
 [Oo]bj/
 [Mm]emoryCaptures/
 Temp/
+Library/
+Library/PackageCache/
+Temp/
+Obj/
+Build/
 *.csproj
 *.unityproj
 *.sln
