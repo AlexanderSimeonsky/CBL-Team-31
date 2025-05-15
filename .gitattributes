@@ -1,0 +1,11 @@
+# Set default behavior to text
+* text=auto
+
+# Force text files to use LF in repo
+*.asset text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+
+# Binary files should be treated as binary
+*.dll binary
+*.exe binary
