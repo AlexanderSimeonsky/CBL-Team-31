@@ -1,0 +1,24 @@
+[7.638s] Invoking command in '/home/ubuntuhost/example_ws/src/turtlebot_goal_receiver': PYTHONPATH=/home/ubuntuhost/example_ws/build/turtlebot_goal_receiver/prefix_override:/home/ubuntuhost/example_ws/install/turtlebot_goal_receiver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot_goal_receiver build --build-base /home/ubuntuhost/example_ws/build/turtlebot_goal_receiver/build install --record /home/ubuntuhost/example_ws/build/turtlebot_goal_receiver/install.log --install-scripts $base/lib/turtlebot_goal_receiver --single-version-externally-managed install_data
+[9.119s] running egg_info
+[9.121s] writing ../../build/turtlebot_goal_receiver/turtlebot_goal_receiver.egg-info/PKG-INFO
+[9.124s] writing dependency_links to ../../build/turtlebot_goal_receiver/turtlebot_goal_receiver.egg-info/dependency_links.txt
+[9.128s] writing entry points to ../../build/turtlebot_goal_receiver/turtlebot_goal_receiver.egg-info/entry_points.txt
+[9.132s] writing requirements to ../../build/turtlebot_goal_receiver/turtlebot_goal_receiver.egg-info/requires.txt
+[9.133s] writing top-level names to ../../build/turtlebot_goal_receiver/turtlebot_goal_receiver.egg-info/top_level.txt
+[9.320s] reading manifest file '../../build/turtlebot_goal_receiver/turtlebot_goal_receiver.egg-info/SOURCES.txt'
+[9.326s] writing manifest file '../../build/turtlebot_goal_receiver/turtlebot_goal_receiver.egg-info/SOURCES.txt'
+[9.328s] running build
+[9.329s] running build_py
+[9.329s] copying turtlebot_goal_receiver/goal_receiver.py -> /home/ubuntuhost/example_ws/build/turtlebot_goal_receiver/build/lib/turtlebot_goal_receiver
+[9.331s] running install
+[9.339s] running install_lib
+[9.346s] copying /home/ubuntuhost/example_ws/build/turtlebot_goal_receiver/build/lib/turtlebot_goal_receiver/goal_receiver.py -> /home/ubuntuhost/example_ws/install/turtlebot_goal_receiver/lib/python3.8/site-packages/turtlebot_goal_receiver
+[9.350s] byte-compiling /home/ubuntuhost/example_ws/install/turtlebot_goal_receiver/lib/python3.8/site-packages/turtlebot_goal_receiver/goal_receiver.py to goal_receiver.cpython-38.pyc
+[9.367s] running install_data
+[9.368s] running install_egg_info
+[9.375s] removing '/home/ubuntuhost/example_ws/install/turtlebot_goal_receiver/lib/python3.8/site-packages/turtlebot_goal_receiver-0.0.0-py3.8.egg-info' (and everything under it)
+[9.377s] Copying ../../build/turtlebot_goal_receiver/turtlebot_goal_receiver.egg-info to /home/ubuntuhost/example_ws/install/turtlebot_goal_receiver/lib/python3.8/site-packages/turtlebot_goal_receiver-0.0.0-py3.8.egg-info
+[9.386s] running install_scripts
+[9.493s] Installing goal_receiver script to /home/ubuntuhost/example_ws/install/turtlebot_goal_receiver/lib/turtlebot_goal_receiver
+[9.496s] writing list of installed files to '/home/ubuntuhost/example_ws/build/turtlebot_goal_receiver/install.log'
+[9.607s] Invoked command in '/home/ubuntuhost/example_ws/src/turtlebot_goal_receiver' returned '0': PYTHONPATH=/home/ubuntuhost/example_ws/build/turtlebot_goal_receiver/prefix_override:/home/ubuntuhost/example_ws/install/turtlebot_goal_receiver/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot_goal_receiver build --build-base /home/ubuntuhost/example_ws/build/turtlebot_goal_receiver/build install --record /home/ubuntuhost/example_ws/build/turtlebot_goal_receiver/install.log --install-scripts $base/lib/turtlebot_goal_receiver --single-version-externally-managed install_data

@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.001273] (ros_tcp_endpoint) JobQueued: {'identifier': 'ros_tcp_endpoint', 'dependencies': OrderedDict()}
+[0.001572] (turtlebot_goal_receiver) JobQueued: {'identifier': 'turtlebot_goal_receiver', 'dependencies': OrderedDict()}
+[0.001741] (unity_slam_example) JobQueued: {'identifier': 'unity_slam_example', 'dependencies': OrderedDict()}
+[0.001856] (ros_tcp_endpoint) JobStarted: {'identifier': 'ros_tcp_endpoint'}
+[0.036273] (turtlebot_goal_receiver) JobStarted: {'identifier': 'turtlebot_goal_receiver'}
+[0.072895] (unity_slam_example) JobStarted: {'identifier': 'unity_slam_example'}
+[0.100176] (-) TimerEvent: {}
+[0.202066] (-) TimerEvent: {}
+[0.303424] (-) TimerEvent: {}
+[0.404168] (-) TimerEvent: {}
+[0.505002] (-) TimerEvent: {}
+[0.605788] (-) TimerEvent: {}
+[0.706761] (-) TimerEvent: {}
+[0.807660] (-) TimerEvent: {}
+[0.909193] (-) TimerEvent: {}
+[1.009985] (-) TimerEvent: {}
+[1.110746] (-) TimerEvent: {}
+[1.211449] (-) TimerEvent: {}
+[1.312115] (-) TimerEvent: {}
+[1.413627] (-) TimerEvent: {}
+[1.515624] (-) TimerEvent: {}
+[1.617075] (-) TimerEvent: {}
+[1.721003] (-) TimerEvent: {}
+[1.824131] (-) TimerEvent: {}
+[1.926247] (-) TimerEvent: {}
+[2.031808] (-) TimerEvent: {}
+[2.135425] (-) TimerEvent: {}
+[2.238190] (-) TimerEvent: {}
+[2.341949] (-) TimerEvent: {}
+[2.443865] (-) TimerEvent: {}
+[2.547551] (-) TimerEvent: {}
+[2.648801] (-) TimerEvent: {}
+[2.751603] (-) TimerEvent: {}
+[2.856566] (-) TimerEvent: {}
+[2.963593] (-) TimerEvent: {}
+[3.065620] (-) TimerEvent: {}
+[3.166540] (-) TimerEvent: {}
+[3.268775] (-) TimerEvent: {}
+[3.370774] (-) TimerEvent: {}
+[3.473298] (-) TimerEvent: {}
+[3.575369] (-) TimerEvent: {}
+[3.677242] (-) TimerEvent: {}
+[3.779047] (-) TimerEvent: {}
+[3.881818] (-) TimerEvent: {}
+[3.983141] (-) TimerEvent: {}
+[4.085683] (-) TimerEvent: {}
+[4.187683] (-) TimerEvent: {}
+[4.289317] (-) TimerEvent: {}
+[4.390512] (-) TimerEvent: {}
+[4.491662] (-) TimerEvent: {}
+[4.593280] (-) TimerEvent: {}
+[4.695389] (-) TimerEvent: {}
+[4.797592] (-) TimerEvent: {}
+[4.899069] (-) TimerEvent: {}
+[5.001523] (-) TimerEvent: {}
+[5.103498] (-) TimerEvent: {}
+[5.163724] (turtlebot_goal_receiver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtlebot_goal_receiver', 'build', '--build-base', '/home/ubuntuhost/example_ws/build/turtlebot_goal_receiver/build', 'install', '--record', '/home/ubuntuhost/example_ws/build/turtlebot_goal_receiver/install.log', '--install-scripts', '$base/lib/turtlebot_goal_receiver', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntuhost/example_ws/src/turtlebot_goal_receiver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntuhost', 'SSH_AGENT_PID': '1828', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntuhost', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1734', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d1870b9acff4ad9fbb70fea368482cfa', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ubuntuhost/example_ws/install:/home/ubuntuhost/example_ws/src/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntuhost', 'JOURNAL_STREAM': '8:52967', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntuhost', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1863,unix/ubuntu:/tmp/.ICE-unix/1863', 'INVOCATION_ID': '32ca5e5b74d84c13b9833afebad2730f', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d90d2788_4fc0_494e_9c33_94ea7f26c75d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntuhost/example_ws/install/unity_slam_example:/home/ubuntuhost/example_ws/install/turtlebot_goal_receiver:/home/ubuntuhost/example_ws/install/ros_tcp_endpoint:/home/ubuntuhost/example_ws/src/install/unity_slam_example:/home/ubuntuhost/example_ws/src/install/turtlebot_goal_receiver:/home/ubuntuhost/example_ws/src/install/ros_tcp_endpoint:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntuhost/example_ws/build/turtlebot_goal_receiver', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d1870b9acff4ad9fbb70fea368482cfa', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntuhost/example_ws/build/turtlebot_goal_receiver/prefix_override:/home/ubuntuhost/example_ws/install/turtlebot_goal_receiver/lib/python3.8/site-packages:/home/ubuntuhost/example_ws/install/unity_slam_example/lib/python3.8/site-packages:/home/ubuntuhost/example_ws/install/turtlebot_goal_receiver/lib/python3.8/site-packages:/home/ubuntuhost/example_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/ubuntuhost/example_ws/src/install/unity_slam_example/lib/python3.8/site-packages:/home/ubuntuhost/example_ws/src/install/turtlebot_goal_receiver/lib/python3.8/site-packages:/home/ubuntuhost/example_ws/src/install/ros_tcp_endpoint/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[5.212560] (unity_slam_example) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/unity_slam_example', 'build', '--build-base', '/home/ubuntuhost/example_ws/build/unity_slam_example/build', 'install', '--record', '/home/ubuntuhost/example_ws/build/unity_slam_example/install.log', '--install-scripts', '$base/lib/unity_slam_example', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntuhost/example_ws/src/unity_slam_example', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntuhost', 'SSH_AGENT_PID': '1828', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntuhost', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1734', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d1870b9acff4ad9fbb70fea368482cfa', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ubuntuhost/example_ws/install:/home/ubuntuhost/example_ws/src/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntuhost', 'JOURNAL_STREAM': '8:52967', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntuhost', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1863,unix/ubuntu:/tmp/.ICE-unix/1863', 'INVOCATION_ID': '32ca5e5b74d84c13b9833afebad2730f', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d90d2788_4fc0_494e_9c33_94ea7f26c75d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntuhost/example_ws/install/unity_slam_example:/home/ubuntuhost/example_ws/install/turtlebot_goal_receiver:/home/ubuntuhost/example_ws/install/ros_tcp_endpoint:/home/ubuntuhost/example_ws/src/install/unity_slam_example:/home/ubuntuhost/example_ws/src/install/turtlebot_goal_receiver:/home/ubuntuhost/example_ws/src/install/ros_tcp_endpoint:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntuhost/example_ws/build/unity_slam_example', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d1870b9acff4ad9fbb70fea368482cfa', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntuhost/example_ws/build/unity_slam_example/prefix_override:/home/ubuntuhost/example_ws/install/unity_slam_example/lib/python3.8/site-packages:/home/ubuntuhost/example_ws/install/unity_slam_example/lib/python3.8/site-packages:/home/ubuntuhost/example_ws/install/turtlebot_goal_receiver/lib/python3.8/site-packages:/home/ubuntuhost/example_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/ubuntuhost/example_ws/src/install/unity_slam_example/lib/python3.8/site-packages:/home/ubuntuhost/example_ws/src/install/turtlebot_goal_receiver/lib/python3.8/site-packages:/home/ubuntuhost/example_ws/src/install/ros_tcp_endpoint/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[5.224045] (-) TimerEvent: {}
+[5.252523] (ros_tcp_endpoint) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ros_tcp_endpoint', 'build', '--build-base', '/home/ubuntuhost/example_ws/build/ros_tcp_endpoint/build', 'install', '--record', '/home/ubuntuhost/example_ws/build/ros_tcp_endpoint/install.log', '--install-scripts', '$base/lib/ros_tcp_endpoint', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntuhost/example_ws/src/ROS-TCP-Endpoint', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntuhost', 'SSH_AGENT_PID': '1828', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ubuntuhost', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1734', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d1870b9acff4ad9fbb70fea368482cfa', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ubuntuhost/example_ws/install:/home/ubuntuhost/example_ws/src/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntuhost', 'JOURNAL_STREAM': '8:52967', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntuhost', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1863,unix/ubuntu:/tmp/.ICE-unix/1863', 'INVOCATION_ID': '32ca5e5b74d84c13b9833afebad2730f', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d90d2788_4fc0_494e_9c33_94ea7f26c75d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntuhost/example_ws/install/unity_slam_example:/home/ubuntuhost/example_ws/install/turtlebot_goal_receiver:/home/ubuntuhost/example_ws/install/ros_tcp_endpoint:/home/ubuntuhost/example_ws/src/install/unity_slam_example:/home/ubuntuhost/example_ws/src/install/turtlebot_goal_receiver:/home/ubuntuhost/example_ws/src/install/ros_tcp_endpoint:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntuhost/example_ws/build/ros_tcp_endpoint', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d1870b9acff4ad9fbb70fea368482cfa', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntuhost/example_ws/build/ros_tcp_endpoint/prefix_override:/home/ubuntuhost/example_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/ubuntuhost/example_ws/install/unity_slam_example/lib/python3.8/site-packages:/home/ubuntuhost/example_ws/install/turtlebot_goal_receiver/lib/python3.8/site-packages:/home/ubuntuhost/example_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/ubuntuhost/example_ws/src/install/unity_slam_example/lib/python3.8/site-packages:/home/ubuntuhost/example_ws/src/install/turtlebot_goal_receiver/lib/python3.8/site-packages:/home/ubuntuhost/example_ws/src/install/ros_tcp_endpoint/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[5.325933] (-) TimerEvent: {}
+[5.428868] (-) TimerEvent: {}
+[5.533390] (-) TimerEvent: {}
+[5.635234] (-) TimerEvent: {}
+[5.737438] (-) TimerEvent: {}
+[5.838866] (-) TimerEvent: {}
+[5.941277] (-) TimerEvent: {}
+[6.042669] (-) TimerEvent: {}
+[6.145500] (-) TimerEvent: {}
+[6.246871] (-) TimerEvent: {}
+[6.349222] (-) TimerEvent: {}
+[6.450766] (-) TimerEvent: {}
+[6.552654] (-) TimerEvent: {}
+[6.584367] (unity_slam_example) StdoutLine: {'line': b'running egg_info\n'}
+[6.588304] (unity_slam_example) StdoutLine: {'line': b'writing ../../build/unity_slam_example/unity_slam_example.egg-info/PKG-INFO\n'}
+[6.589802] (unity_slam_example) StdoutLine: {'line': b'writing dependency_links to ../../build/unity_slam_example/unity_slam_example.egg-info/dependency_links.txt\n'}
+[6.591930] (turtlebot_goal_receiver) StdoutLine: {'line': b'running egg_info\n'}
+[6.592543] (unity_slam_example) StdoutLine: {'line': b'writing requirements to ../../build/unity_slam_example/unity_slam_example.egg-info/requires.txt\n'}
+[6.594757] (turtlebot_goal_receiver) StdoutLine: {'line': b'writing ../../build/turtlebot_goal_receiver/turtlebot_goal_receiver.egg-info/PKG-INFO\n'}
+[6.596270] (unity_slam_example) StdoutLine: {'line': b'writing top-level names to ../../build/unity_slam_example/unity_slam_example.egg-info/top_level.txt\n'}
+[6.599301] (turtlebot_goal_receiver) StdoutLine: {'line': b'writing dependency_links to ../../build/turtlebot_goal_receiver/turtlebot_goal_receiver.egg-info/dependency_links.txt\n'}
+[6.600019] (turtlebot_goal_receiver) StdoutLine: {'line': b'writing entry points to ../../build/turtlebot_goal_receiver/turtlebot_goal_receiver.egg-info/entry_points.txt\n'}
+[6.601367] (turtlebot_goal_receiver) StdoutLine: {'line': b'writing requirements to ../../build/turtlebot_goal_receiver/turtlebot_goal_receiver.egg-info/requires.txt\n'}
+[6.602948] (turtlebot_goal_receiver) StdoutLine: {'line': b'writing top-level names to ../../build/turtlebot_goal_receiver/turtlebot_goal_receiver.egg-info/top_level.txt\n'}
+[6.634142] (unity_slam_example) StdoutLine: {'line': b"reading manifest file '../../build/unity_slam_example/unity_slam_example.egg-info/SOURCES.txt'\n"}
+[6.641088] (unity_slam_example) StdoutLine: {'line': b"writing manifest file '../../build/unity_slam_example/unity_slam_example.egg-info/SOURCES.txt'\n"}
+[6.642144] (unity_slam_example) StdoutLine: {'line': b'running build\n'}
+[6.642720] (unity_slam_example) StdoutLine: {'line': b'running install\n'}
+[6.645929] (unity_slam_example) StdoutLine: {'line': b'running install_data\n'}
+[6.647311] (unity_slam_example) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.648626] (ros_tcp_endpoint) StdoutLine: {'line': b'running egg_info\n'}
+[6.653679] (ros_tcp_endpoint) StdoutLine: {'line': b'writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO\n'}
+[6.654470] (-) TimerEvent: {}
+[6.655677] (ros_tcp_endpoint) StdoutLine: {'line': b'writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt\n'}
+[6.657614] (ros_tcp_endpoint) StdoutLine: {'line': b'writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt\n'}
+[6.659392] (ros_tcp_endpoint) StdoutLine: {'line': b'writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt\n'}
+[6.660032] (ros_tcp_endpoint) StdoutLine: {'line': b'writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt\n'}
+[6.661397] (unity_slam_example) StdoutLine: {'line': b"removing '/home/ubuntuhost/example_ws/install/unity_slam_example/lib/python3.8/site-packages/unity_slam_example-0.0.1-py3.8.egg-info' (and everything under it)\n"}
+[6.662806] (unity_slam_example) StdoutLine: {'line': b'Copying ../../build/unity_slam_example/unity_slam_example.egg-info to /home/ubuntuhost/example_ws/install/unity_slam_example/lib/python3.8/site-packages/unity_slam_example-0.0.1-py3.8.egg-info\n'}
+[6.668245] (unity_slam_example) StdoutLine: {'line': b'running install_scripts\n'}
+[6.756072] (-) TimerEvent: {}
+[6.762678] (unity_slam_example) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntuhost/example_ws/build/unity_slam_example/install.log'\n"}
+[6.792333] (turtlebot_goal_receiver) StdoutLine: {'line': b"reading manifest file '../../build/turtlebot_goal_receiver/turtlebot_goal_receiver.egg-info/SOURCES.txt'\n"}
+[6.820604] (turtlebot_goal_receiver) StdoutLine: {'line': b"writing manifest file '../../build/turtlebot_goal_receiver/turtlebot_goal_receiver.egg-info/SOURCES.txt'\n"}
+[6.821989] (turtlebot_goal_receiver) StdoutLine: {'line': b'running build\n'}
+[6.822598] (turtlebot_goal_receiver) StdoutLine: {'line': b'running build_py\n'}
+[6.823007] (turtlebot_goal_receiver) StdoutLine: {'line': b'copying turtlebot_goal_receiver/goal_receiver.py -> /home/ubuntuhost/example_ws/build/turtlebot_goal_receiver/build/lib/turtlebot_goal_receiver\n'}
+[6.825845] (turtlebot_goal_receiver) StdoutLine: {'line': b'running install\n'}
+[6.830130] (ros_tcp_endpoint) StdoutLine: {'line': b"reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[6.831731] (turtlebot_goal_receiver) StdoutLine: {'line': b'running install_lib\n'}
+[6.836629] (ros_tcp_endpoint) StdoutLine: {'line': b"writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[6.838550] (ros_tcp_endpoint) StdoutLine: {'line': b'running build\n'}
+[6.839138] (ros_tcp_endpoint) StdoutLine: {'line': b'running build_py\n'}
+[6.840236] (turtlebot_goal_receiver) StdoutLine: {'line': b'copying /home/ubuntuhost/example_ws/build/turtlebot_goal_receiver/build/lib/turtlebot_goal_receiver/goal_receiver.py -> /home/ubuntuhost/example_ws/install/turtlebot_goal_receiver/lib/python3.8/site-packages/turtlebot_goal_receiver\n'}
+[6.845958] (ros_tcp_endpoint) StdoutLine: {'line': b'running install\n'}
+[6.851460] (turtlebot_goal_receiver) StdoutLine: {'line': b'byte-compiling /home/ubuntuhost/example_ws/install/turtlebot_goal_receiver/lib/python3.8/site-packages/turtlebot_goal_receiver/goal_receiver.py to goal_receiver.cpython-38.pyc\n'}
+[6.855325] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_lib\n'}
+[6.862774] (-) TimerEvent: {}
+[6.864952] (turtlebot_goal_receiver) StdoutLine: {'line': b'running install_data\n'}
+[6.872947] (turtlebot_goal_receiver) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.873569] (unity_slam_example) CommandEnded: {'returncode': 0}
+[6.876219] (turtlebot_goal_receiver) StdoutLine: {'line': b"removing '/home/ubuntuhost/example_ws/install/turtlebot_goal_receiver/lib/python3.8/site-packages/turtlebot_goal_receiver-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[6.878004] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_data\n'}
+[6.878511] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.879804] (turtlebot_goal_receiver) StdoutLine: {'line': b'Copying ../../build/turtlebot_goal_receiver/turtlebot_goal_receiver.egg-info to /home/ubuntuhost/example_ws/install/turtlebot_goal_receiver/lib/python3.8/site-packages/turtlebot_goal_receiver-0.0.0-py3.8.egg-info\n'}
+[6.880891] (ros_tcp_endpoint) StdoutLine: {'line': b"removing '/home/ubuntuhost/example_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info' (and everything under it)\n"}
+[6.888551] (turtlebot_goal_receiver) StdoutLine: {'line': b'running install_scripts\n'}
+[6.891012] (ros_tcp_endpoint) StdoutLine: {'line': b'Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/ubuntuhost/example_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info\n'}
+[6.891658] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_scripts\n'}
+[6.969845] (-) TimerEvent: {}
+[6.978932] (turtlebot_goal_receiver) StdoutLine: {'line': b'Installing goal_receiver script to /home/ubuntuhost/example_ws/install/turtlebot_goal_receiver/lib/turtlebot_goal_receiver\n'}
+[6.993348] (turtlebot_goal_receiver) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntuhost/example_ws/build/turtlebot_goal_receiver/install.log'\n"}
+[7.000834] (ros_tcp_endpoint) StdoutLine: {'line': b'Installing default_server_endpoint script to /home/ubuntuhost/example_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint\n'}
+[7.004721] (ros_tcp_endpoint) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntuhost/example_ws/build/ros_tcp_endpoint/install.log'\n"}
+[7.006225] (unity_slam_example) JobEnded: {'identifier': 'unity_slam_example', 'rc': 0}
+[7.071087] (-) TimerEvent: {}
+[7.101198] (turtlebot_goal_receiver) CommandEnded: {'returncode': 0}
+[7.170353] (turtlebot_goal_receiver) JobEnded: {'identifier': 'turtlebot_goal_receiver', 'rc': 0}
+[7.172865] (-) TimerEvent: {}
+[7.173375] (ros_tcp_endpoint) CommandEnded: {'returncode': 0}
+[7.218505] (ros_tcp_endpoint) JobEnded: {'identifier': 'ros_tcp_endpoint', 'rc': 0}
+[7.223317] (-) EventReactorShutdown: {}

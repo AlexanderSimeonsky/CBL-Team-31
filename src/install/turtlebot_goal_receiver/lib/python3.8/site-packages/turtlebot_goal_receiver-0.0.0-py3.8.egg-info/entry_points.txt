@@ -1,0 +1,3 @@
+[console_scripts]
+goal_receiver = turtlebot_goal_receiver.goal_receiver:main
+

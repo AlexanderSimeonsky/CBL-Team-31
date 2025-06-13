@@ -1,0 +1,26 @@
+[5.328s] Invoking command in '/home/ubuntuhost/example_ws/src/unity_slam_example': PYTHONPATH=/home/ubuntuhost/example_ws/src/build/unity_slam_example/prefix_override:/home/ubuntuhost/example_ws/src/install/unity_slam_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/unity_slam_example build --build-base /home/ubuntuhost/example_ws/src/build/unity_slam_example/build install --record /home/ubuntuhost/example_ws/src/build/unity_slam_example/install.log --install-scripts $base/lib/unity_slam_example --single-version-externally-managed install_data
+[6.509s] running egg_info
+[6.511s] creating ../build/unity_slam_example/unity_slam_example.egg-info
+[6.513s] writing ../build/unity_slam_example/unity_slam_example.egg-info/PKG-INFO
+[6.515s] writing dependency_links to ../build/unity_slam_example/unity_slam_example.egg-info/dependency_links.txt
+[6.516s] writing requirements to ../build/unity_slam_example/unity_slam_example.egg-info/requires.txt
+[6.518s] writing top-level names to ../build/unity_slam_example/unity_slam_example.egg-info/top_level.txt
+[6.524s] writing manifest file '../build/unity_slam_example/unity_slam_example.egg-info/SOURCES.txt'
+[6.527s] reading manifest file '../build/unity_slam_example/unity_slam_example.egg-info/SOURCES.txt'
+[6.531s] writing manifest file '../build/unity_slam_example/unity_slam_example.egg-info/SOURCES.txt'
+[6.532s] running build
+[6.533s] running install
+[6.536s] running install_data
+[6.536s] creating /home/ubuntuhost/example_ws/src/install/unity_slam_example/share/ament_index
+[6.537s] creating /home/ubuntuhost/example_ws/src/install/unity_slam_example/share/ament_index/resource_index
+[6.537s] creating /home/ubuntuhost/example_ws/src/install/unity_slam_example/share/ament_index/resource_index/packages
+[6.539s] copying resource/unity_slam_example -> /home/ubuntuhost/example_ws/src/install/unity_slam_example/share/ament_index/resource_index/packages
+[6.539s] copying package.xml -> /home/ubuntuhost/example_ws/src/install/unity_slam_example/share/unity_slam_example
+[6.540s] copying rviz/nav2_unity.rviz -> /home/ubuntuhost/example_ws/src/install/unity_slam_example/share/unity_slam_example
+[6.541s] copying launch/unity_slam_example.py -> /home/ubuntuhost/example_ws/src/install/unity_slam_example/share/unity_slam_example
+[6.541s] copying launch/unity_viz_example.py -> /home/ubuntuhost/example_ws/src/install/unity_slam_example/share/unity_slam_example
+[6.541s] running install_egg_info
+[6.551s] Copying ../build/unity_slam_example/unity_slam_example.egg-info to /home/ubuntuhost/example_ws/src/install/unity_slam_example/lib/python3.8/site-packages/unity_slam_example-0.0.1-py3.8.egg-info
+[6.557s] running install_scripts
+[6.637s] writing list of installed files to '/home/ubuntuhost/example_ws/src/build/unity_slam_example/install.log'
+[6.707s] Invoked command in '/home/ubuntuhost/example_ws/src/unity_slam_example' returned '0': PYTHONPATH=/home/ubuntuhost/example_ws/src/build/unity_slam_example/prefix_override:/home/ubuntuhost/example_ws/src/install/unity_slam_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/unity_slam_example build --build-base /home/ubuntuhost/example_ws/src/build/unity_slam_example/build install --record /home/ubuntuhost/example_ws/src/build/unity_slam_example/install.log --install-scripts $base/lib/unity_slam_example --single-version-externally-managed install_data
