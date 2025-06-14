@@ -1,4 +1,0 @@
-[console_scripts]
-waypoint_follower = navigator.waypoint_follower:main
-waypoint_publisher = navigator.waypoint_publisher:main
-

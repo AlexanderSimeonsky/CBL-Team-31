@@ -1,0 +1,31 @@
+# ROS 2 build and install folders
+build/
+install/
+log/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.egg-info/
+*.egg
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+

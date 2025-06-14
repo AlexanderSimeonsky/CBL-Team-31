@@ -1,5 +1,0 @@
-[console_scripts]
-initial_pose = send_goal_pkg.initial_pose:main
-publish_goal = send_goal_pkg.publish_goal:main
-send_goal = send_goal_pkg.send_goal:main
-
