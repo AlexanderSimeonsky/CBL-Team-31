@@ -15,7 +15,12 @@ source install/setup.bash
 export TURTLEBOT3_MODEL=burger  
 ros2 launch send_goal_pkg send_goal_launch.py  
 
-# on new terminal window  
+# on new terminal window 
 source install/setup.bash  
-export TURTLEBOT3_MODEL=burger  
-ros2 run send_goal_pkg publish_goal  
+export TURTLEBOT3_MODEL=burger
+ros2 run navigator waypoint_follower
+
+# on new terminal window 
+source install/setup.bash  
+export TURTLEBOT3_MODEL=burger
+ros2 run navigator waypoint_publisher
