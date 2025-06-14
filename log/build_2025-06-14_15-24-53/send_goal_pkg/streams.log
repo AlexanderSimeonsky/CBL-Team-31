@@ -1,0 +1,23 @@
+[9.841s] Invoking command in '/home/ubuntuhost/example_ws/src/send_goal_pkg': PYTHONPATH=/home/ubuntuhost/example_ws/build/send_goal_pkg/prefix_override:/home/ubuntuhost/example_ws/install/send_goal_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/send_goal_pkg build --build-base /home/ubuntuhost/example_ws/build/send_goal_pkg/build install --record /home/ubuntuhost/example_ws/build/send_goal_pkg/install.log --install-scripts $base/lib/send_goal_pkg --single-version-externally-managed install_data
+[11.167s] running egg_info
+[11.170s] writing ../../build/send_goal_pkg/send_goal_pkg.egg-info/PKG-INFO
+[11.171s] writing dependency_links to ../../build/send_goal_pkg/send_goal_pkg.egg-info/dependency_links.txt
+[11.174s] writing entry points to ../../build/send_goal_pkg/send_goal_pkg.egg-info/entry_points.txt
+[11.175s] writing requirements to ../../build/send_goal_pkg/send_goal_pkg.egg-info/requires.txt
+[11.176s] writing top-level names to ../../build/send_goal_pkg/send_goal_pkg.egg-info/top_level.txt
+[11.342s] reading manifest file '../../build/send_goal_pkg/send_goal_pkg.egg-info/SOURCES.txt'
+[11.350s] writing manifest file '../../build/send_goal_pkg/send_goal_pkg.egg-info/SOURCES.txt'
+[11.351s] running build
+[11.353s] running build_py
+[11.356s] running install
+[11.360s] running install_lib
+[11.372s] running install_data
+[11.373s] running install_egg_info
+[11.382s] removing '/home/ubuntuhost/example_ws/install/send_goal_pkg/lib/python3.8/site-packages/send_goal_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[11.386s] Copying ../../build/send_goal_pkg/send_goal_pkg.egg-info to /home/ubuntuhost/example_ws/install/send_goal_pkg/lib/python3.8/site-packages/send_goal_pkg-0.0.0-py3.8.egg-info
+[11.396s] running install_scripts
+[11.498s] Installing initial_pose script to /home/ubuntuhost/example_ws/install/send_goal_pkg/lib/send_goal_pkg
+[11.500s] Installing publish_goal script to /home/ubuntuhost/example_ws/install/send_goal_pkg/lib/send_goal_pkg
+[11.501s] Installing send_goal script to /home/ubuntuhost/example_ws/install/send_goal_pkg/lib/send_goal_pkg
+[11.507s] writing list of installed files to '/home/ubuntuhost/example_ws/build/send_goal_pkg/install.log'
+[11.746s] Invoked command in '/home/ubuntuhost/example_ws/src/send_goal_pkg' returned '0': PYTHONPATH=/home/ubuntuhost/example_ws/build/send_goal_pkg/prefix_override:/home/ubuntuhost/example_ws/install/send_goal_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/send_goal_pkg build --build-base /home/ubuntuhost/example_ws/build/send_goal_pkg/build install --record /home/ubuntuhost/example_ws/build/send_goal_pkg/install.log --install-scripts $base/lib/send_goal_pkg --single-version-externally-managed install_data

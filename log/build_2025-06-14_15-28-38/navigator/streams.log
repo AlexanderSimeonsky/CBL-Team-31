@@ -1,0 +1,25 @@
+[9.739s] Invoking command in '/home/ubuntuhost/example_ws/src/navigator': PYTHONPATH=/home/ubuntuhost/example_ws/build/navigator/prefix_override:/home/ubuntuhost/example_ws/install/navigator/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigator build --build-base /home/ubuntuhost/example_ws/build/navigator/build install --record /home/ubuntuhost/example_ws/build/navigator/install.log --install-scripts $base/lib/navigator --single-version-externally-managed install_data
+[11.088s] running egg_info
+[11.092s] writing ../../build/navigator/navigator.egg-info/PKG-INFO
+[11.096s] writing dependency_links to ../../build/navigator/navigator.egg-info/dependency_links.txt
+[11.098s] writing entry points to ../../build/navigator/navigator.egg-info/entry_points.txt
+[11.099s] writing requirements to ../../build/navigator/navigator.egg-info/requires.txt
+[11.102s] writing top-level names to ../../build/navigator/navigator.egg-info/top_level.txt
+[11.278s] reading manifest file '../../build/navigator/navigator.egg-info/SOURCES.txt'
+[11.283s] writing manifest file '../../build/navigator/navigator.egg-info/SOURCES.txt'
+[11.285s] running build
+[11.285s] running build_py
+[11.288s] copying navigator/waypoint_publisher.py -> /home/ubuntuhost/example_ws/build/navigator/build/lib/navigator
+[11.289s] running install
+[11.294s] running install_lib
+[11.301s] copying /home/ubuntuhost/example_ws/build/navigator/build/lib/navigator/waypoint_publisher.py -> /home/ubuntuhost/example_ws/install/navigator/lib/python3.8/site-packages/navigator
+[11.308s] byte-compiling /home/ubuntuhost/example_ws/install/navigator/lib/python3.8/site-packages/navigator/waypoint_publisher.py to waypoint_publisher.cpython-38.pyc
+[11.319s] running install_data
+[11.322s] running install_egg_info
+[11.331s] removing '/home/ubuntuhost/example_ws/install/navigator/lib/python3.8/site-packages/navigator-0.0.0-py3.8.egg-info' (and everything under it)
+[11.333s] Copying ../../build/navigator/navigator.egg-info to /home/ubuntuhost/example_ws/install/navigator/lib/python3.8/site-packages/navigator-0.0.0-py3.8.egg-info
+[11.344s] running install_scripts
+[11.445s] Installing waypoint_follower script to /home/ubuntuhost/example_ws/install/navigator/lib/navigator
+[11.448s] Installing waypoint_publisher script to /home/ubuntuhost/example_ws/install/navigator/lib/navigator
+[11.451s] writing list of installed files to '/home/ubuntuhost/example_ws/build/navigator/install.log'
+[11.674s] Invoked command in '/home/ubuntuhost/example_ws/src/navigator' returned '0': PYTHONPATH=/home/ubuntuhost/example_ws/build/navigator/prefix_override:/home/ubuntuhost/example_ws/install/navigator/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigator build --build-base /home/ubuntuhost/example_ws/build/navigator/build install --record /home/ubuntuhost/example_ws/build/navigator/install.log --install-scripts $base/lib/navigator --single-version-externally-managed install_data

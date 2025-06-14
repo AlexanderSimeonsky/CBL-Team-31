@@ -1,0 +1,21 @@
+[9.797s] Invoking command in '/home/ubuntuhost/example_ws/src/ROS-TCP-Endpoint': PYTHONPATH=/home/ubuntuhost/example_ws/build/ros_tcp_endpoint/prefix_override:/home/ubuntuhost/example_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/ubuntuhost/example_ws/build/ros_tcp_endpoint/build install --record /home/ubuntuhost/example_ws/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data
+[11.067s] running egg_info
+[11.073s] writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+[11.075s] writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+[11.078s] writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+[11.080s] writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+[11.081s] writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+[11.260s] reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[11.267s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[11.269s] running build
+[11.269s] running build_py
+[11.276s] running install
+[11.282s] running install_lib
+[11.295s] running install_data
+[11.299s] running install_egg_info
+[11.310s] removing '/home/ubuntuhost/example_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info' (and everything under it)
+[11.311s] Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/ubuntuhost/example_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info
+[11.319s] running install_scripts
+[11.434s] Installing default_server_endpoint script to /home/ubuntuhost/example_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[11.440s] writing list of installed files to '/home/ubuntuhost/example_ws/build/ros_tcp_endpoint/install.log'
+[11.651s] Invoked command in '/home/ubuntuhost/example_ws/src/ROS-TCP-Endpoint' returned '0': PYTHONPATH=/home/ubuntuhost/example_ws/build/ros_tcp_endpoint/prefix_override:/home/ubuntuhost/example_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/ubuntuhost/example_ws/build/ros_tcp_endpoint/build install --record /home/ubuntuhost/example_ws/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data
