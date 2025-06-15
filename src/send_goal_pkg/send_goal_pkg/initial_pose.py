@@ -16,15 +16,15 @@ class InitialPosePublisher(Node):
             msg.header.frame_id = 'map'
             msg.header.stamp = self.get_clock().now().to_msg()
             msg.pose.pose.position.x = -2.0
-            msg.pose.pose.position.y = 0.5
-            msg.pose.pose.position.z = 0.3
+            msg.pose.pose.position.y = -0.5
+            msg.pose.pose.position.z = 0.1
             msg.pose.pose.orientation.x = 0.0
             msg.pose.pose.orientation.y = 0.0
             msg.pose.pose.orientation.z = 0.0
             msg.pose.pose.orientation.w = 1.0
             msg.pose.covariance = [0.0]*36
             self.publisher.publish(msg)
-            self.get_logger().info('Published initial pose: x=-2.0, y=0.5, z=0.3')
+            self.get_logger().info('Published initial pose: x=-2.0, y=-0.5, z=0.1')
             self.published = True
             self.timer.cancel()  # stop the timer after publishing once
 

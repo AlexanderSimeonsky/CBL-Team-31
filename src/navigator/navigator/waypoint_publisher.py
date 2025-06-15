@@ -12,11 +12,11 @@ class DigitalTwinNode(Node):
 
     def publish_path(self):
         points = [
-            (0.0, 0.0),
-            (1.0, 0.0),
-            (2.0, 1.0),
-            (3.0, 1.5),
-            (4.0, 2.0),
+            #(0.0, 0.0),
+            (1.0, -0.5),
+            #(2.0, 1.0),
+            #(3.0, 1.5),
+            #(4.0, 2.0),
         ]
 
         if self.last_path == points:

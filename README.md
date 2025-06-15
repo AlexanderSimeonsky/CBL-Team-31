@@ -1,26 +1,37 @@
 ```bash
 # commands to run current implementation  
 
+# launch file to do steps 1-3 simultaniously (might cause issue for some reason)
+source install/setup.bash  
+ros2 launch send_goal_pkg full_sim_nav2_launch.py
+
+# 1
 source install/setup.bash  
 export TURTLEBOT3_MODEL=burger  
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py  
 
-# on new terminal window  
+# 2 on new terminal window  
 source install/setup.bash  
 export TURTLEBOT3_MODEL=burger  
 ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True  
 
-# on new terminal window  
+# 3 on new terminal window  
 source install/setup.bash  
 export TURTLEBOT3_MODEL=burger  
-ros2 launch send_goal_pkg send_goal_launch.py  
+ros2 launch send_goal_pkg send_goal_launch.py
 
-# on new terminal window 
+# 4 on new terminal window 
 source install/setup.bash  
 export TURTLEBOT3_MODEL=burger
 ros2 run navigator waypoint_follower
 
-# on new terminal window 
+# 5 on new terminal window 
 source install/setup.bash  
 export TURTLEBOT3_MODEL=burger
 ros2 run navigator waypoint_publisher
+
+
+TODO: build custom world?
+TODO: currently robot only moves to one point (pickup), but also needs dropoff
+TODO: find a way to simulate road closure
+      automatic rerouting to simulate road closure

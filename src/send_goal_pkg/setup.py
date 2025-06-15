@@ -26,6 +26,7 @@ setup(
             'send_goal = send_goal_pkg.send_goal:main',
             'publish_goal = send_goal_pkg.publish_goal:main',
             'initial_pose = send_goal_pkg.initial_pose:main',
+            'get_turtlebot_pose = send_goal_pkg.get_turtlebot_pose:main',
         ],
     },
 )
