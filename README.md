@@ -28,10 +28,9 @@ ros2 run navigator waypoint_follower
 # 5 on new terminal window 
 source install/setup.bash  
 export TURTLEBOT3_MODEL=burger
-ros2 run navigator waypoint_publisher
+ros2 run send_goal_pkg publish_goal
 
 
 TODO: build custom world?
-TODO: currently robot only moves to one point (pickup), but also needs dropoff
 TODO: find a way to simulate road closure
       automatic rerouting to simulate road closure
