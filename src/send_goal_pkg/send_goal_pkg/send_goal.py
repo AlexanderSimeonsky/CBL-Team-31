@@ -22,7 +22,7 @@ class DynamicGoalNav(Node):
         goal_msg = NavigateToPose.Goal()
         goal_msg.pose = msg
 
-        # Wait until the action server is available
+        
         self.nav_action_client.wait_for_server()
         self.send_goal(goal_msg)
 

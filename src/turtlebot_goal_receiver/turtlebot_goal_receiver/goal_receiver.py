@@ -42,7 +42,6 @@ class GoalReceiverNode(Node):
     def get_result_callback(self, future):
         result = future.result().result
         self.get_logger().info(f"Goal result received. Result code: {result}")
-        # Optional: Add logic based on result.status if needed
 
 
 def main(args=None):

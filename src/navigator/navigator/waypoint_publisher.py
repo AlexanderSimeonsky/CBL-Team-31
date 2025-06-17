@@ -14,13 +14,13 @@ class DigitalTwinNode(Node):
         points = [
             #(0.0, 0.0),
             (1.0, -0.5),
-            #(2.0, 1.0),
+            (-1.0, -0.5),
             #(3.0, 1.5),
             #(4.0, 2.0),
         ]
 
         if self.last_path == points:
-            return  # no change, do not publish again
+            return  
 
         path = Path()
         path.header.frame_id = "map"

@@ -8,11 +8,11 @@ class TurtlebotPoseListener(Node):
         super().__init__('turtlebot_pose_listener')
         self.subscription = self.create_subscription(
             Odometry,
-            '/odom',  # or '/amcl_pose' if using localization
+            '/odom',
             self.odom_callback,
             10
         )
-        self.subscription  # prevent unused variable warning
+        self.subscription
 
     def odom_callback(self, msg: Odometry):
         pose = msg.pose.pose

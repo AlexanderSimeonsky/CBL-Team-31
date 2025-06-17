@@ -26,7 +26,7 @@ class InitialPosePublisher(Node):
             self.publisher.publish(msg)
             self.get_logger().info('Published initial pose: x=-2.0, y=-0.5, z=0.1')
             self.published = True
-            self.timer.cancel()  # stop the timer after publishing once
+            self.timer.cancel()
 
 
 def main(args=None):
