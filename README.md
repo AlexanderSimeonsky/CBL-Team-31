@@ -29,8 +29,3 @@ ros2 run navigator waypoint_follower
 source install/setup.bash  
 export TURTLEBOT3_MODEL=burger
 ros2 run send_goal_pkg publish_goal
-
-
-TODO: build custom world?
-TODO: find a way to simulate road closure
-      automatic rerouting to simulate road closure
