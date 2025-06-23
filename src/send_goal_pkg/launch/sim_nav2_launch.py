@@ -10,7 +10,6 @@ from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
 
 def generate_launch_description():
-    # Declare launch arguments
     turtlebot3_model_arg = DeclareLaunchArgument(
         'turtlebot3_model',
         default_value='burger',
@@ -22,14 +21,11 @@ def generate_launch_description():
         description='Use simulation (Gazebo) clock if true'
     )
 
-    # Launch configuration substitutions
     turtlebot3_model = LaunchConfiguration('turtlebot3_model')
     use_sim_time = LaunchConfiguration('use_sim_time')
 
-    # Set the TURTLEBOT3_MODEL environment variable
     set_env_var = SetEnvironmentVariable('TURTLEBOT3_MODEL', turtlebot3_model)
 
-    # Launch Gazebo simulation
     gazebo_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
             PathJoinSubstitution([
@@ -40,7 +36,6 @@ def generate_launch_description():
         ])
     )
 
-    # Launch Nav2 stack
     nav2_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
             PathJoinSubstitution([
@@ -54,7 +49,6 @@ def generate_launch_description():
         }.items()
     )
 
-    # Launch custom goal sender
     send_goal_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
             PathJoinSubstitution([

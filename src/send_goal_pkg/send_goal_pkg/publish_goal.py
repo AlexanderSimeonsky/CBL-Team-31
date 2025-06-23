@@ -15,17 +15,15 @@ class GoalPublisher(Node):
         self.current_goal_idx = 0
         self._populate_goals()
 
-        # Publish first goal right away
         self.publish_next_goal()
 
-        # Timer used only once per goal, None if not active
         self.timer = None
 
     def _populate_goals(self):
         goals_data = [
-            (1.5, -0.5, 0.0),
-            (0.5, -0.5, 0.0),
-            (0.0, 0.0, 0.0),
+            (0.81, -0.57, 0.0),
+            (0.66, 2.0, 0.0),
+            (-0.6, 0.5, 0.0),  
         ]
         for x, y, z in goals_data:
             pose = PoseStamped()
@@ -59,7 +57,6 @@ class GoalPublisher(Node):
         if "reached" in msg.data.lower():
             self.current_goal_idx += 1
             if self.timer is None:
-                # Use a one-shot timer to give the system a tiny delay before publishing next goal
                 self.timer = self.create_timer(0.2, self.publish_next_goal_once)
 
     def publish_next_goal_once(self):

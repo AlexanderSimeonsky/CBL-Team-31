@@ -24,7 +24,7 @@ class Nav2WaypointFollower(Node):
         self.waypoints = []
         self.current_goal_idx = 0
         self.goal_active = False
-        self.can_send_next_goal = True   # <-- New flag to control sending
+        self.can_send_next_goal = True
         self.current_pose = None
         self.current_speed = 0.0
         self.eta_timer = self.create_timer(1.0, self.periodic_eta_log)
@@ -124,7 +124,7 @@ class Nav2WaypointFollower(Node):
 
         self.action_client.wait_for_server()
         self.goal_active = True
-        self.can_send_next_goal = False  # Block sending next goal until current finishes
+        self.can_send_next_goal = False
         self._send_goal_future = self.action_client.send_goal_async(goal_msg)
         self._send_goal_future.add_done_callback(self.goal_response_callback)
 
@@ -144,7 +144,7 @@ class Nav2WaypointFollower(Node):
         result = future.result().result
         status = future.result().status
 
-        if status == 3 or status == 5:  # SUCCEEDED or ABORTED
+        if status == 3 or status == 5 or status == 4:  # SUCCEEDED or ABORTED
             if status == 3:
                 self.get_logger().info(f"Goal {self.current_goal_idx + 1} reached!")
             else:
@@ -156,7 +156,7 @@ class Nav2WaypointFollower(Node):
 
             self.current_goal_idx += 1
             self.goal_active = False
-            self.can_send_next_goal = True  # Allow sending next goal now
+            self.can_send_next_goal = True
             self.send_next_goal()
 
         elif status == 6:  # REJECTED

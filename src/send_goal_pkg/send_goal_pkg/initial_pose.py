@@ -6,7 +6,6 @@ class InitialPosePublisher(Node):
     def __init__(self):
         super().__init__('initial_pose_publisher')
         self.publisher = self.create_publisher(PoseWithCovarianceStamped, 'initialpose', 10)
-        # Publish once after a short delay (e.g., 1 second)
         self.timer = self.create_timer(1.0, self.publish_initial_pose)
         self.published = False
 
